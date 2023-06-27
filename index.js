@@ -105,3 +105,13 @@ for (let i=0; i<5; i++){
     alert(number(entry));
 }
 */
+/*diapo 46
+const impuesto = (precio, porcentaje)=>{
+    return precio + ((precio*porcentaje)/100);
+}
+for (let i=0; i<5; i++){
+    let resultado = impuesto(parseFloat(prompt('ingrese precio')),
+                                        parseFloat(prompt('ingrese porcentaje')));
+    alert(resultado)
+}
+*/
